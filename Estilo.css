@@ -1,0 +1,106 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fuente y colores base */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f17f85;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Encabezado */
+header {
+    background: #db5c62;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero */
+.hero {
+    background: url('https://images.unsplash.com/photo-1605902711622-cfb43c4437d3') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #db4048;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Secciones */
+section {
+    padding: 60px 0;
+}
+
+.servicio {
+    margin-bottom: 30px;
+}
+
+/* Contacto */
+form input,
+form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+form button {
+    background: #003366;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background: #002244;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
