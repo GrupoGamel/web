@@ -1,0 +1,147 @@
+/* 🔄 Reset general para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 🌐 Estilo general del cuerpo del documento */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.1;
+}
+
+/* 🧭 Estilo del menú de navegación (etiqueta <nav>) */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #02192f;
+    padding: 1.5rem 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 🎯 Estilo de los enlaces dentro del menú (<nav><a>) */
+nav a {
+    color: #ffffff;
+    margin: 0 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+/* 🎨 Cambio de color al pasar el mouse por los enlaces */
+nav a:hover {
+    color: #767676;
+}
+
+/* 📦 Estilo general de cada sección (<section>) */
+section {
+    min-height: 100vh;
+    padding: 150px 20px 100px;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+
+/* 🏷️ Títulos dentro de las secciones (<h2>) */
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #02192f;
+}
+
+/* 📝 Párrafos dentro de las secciones (<p>) */
+section p {
+    max-width: 800px;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+/* 🧩 Contenedor de empresas aliadas (clase .empresas) */
+.empresas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* 🏢 Estilo de cada tarjeta de empresa (clase .empresa) */
+.empresa {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+}
+
+/* 🦶 Estilo del pie de página (<footer>) */
+footer {
+    background-color: #02192f;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* 🖼️ Logo u otra imagen dentro del pie de página */
+footer img {
+    width: 120px;
+    margin-top: 15px;
+}
+
+/* 🖼️ Fondo de la sección #inicio con Imagen1.jpg */
+#inicio {
+    background-image: url('Imagenes/Imagen\ de\ fondo\ .jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 120px 20px 60px;
+    align-items: flex-start !important;
+    text-align: left !important;
+}
+
+/* ✅ NUEVO: Sección contacto (imagen a la izquierda, tabla a la derecha) */
+#contacto {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    padding: 150px 40px 100px;
+    background-color: #e5e5e5;
+    text-align: left;
+}
+
+#contacto img {
+    width: 250px;
+    height: auto;
+    object-fit: contain;
+}
+
+#contacto table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#contacto table td {
+    border: 1px solid #999;
+    padding: 8px 12px;
+}
+
+#contacto p {
+    margin-bottom: 8px;
+}
